@@ -1,0 +1,66 @@
+#app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .head{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    padding: 5rem 8rem 10rem 8rem;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(34, 43, 50);
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .swiper-slide h1{
+    font-size: 2.5rem;
+    margin-top: 0;
+  }
+
+  .swiper-slide h2{
+    font-size: 1.8rem;
+    margin-top: 0;
+    margin-bottom: 4rem;
+  }
+
+  .swiper-slide p{
+    font-size: 1.5rem;
+  }
+
+  .company{
+    color: red;
+  }

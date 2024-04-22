@@ -1,0 +1,69 @@
+.destinationUp{
+    margin: 4rem 4rem;
+}
+
+.destinationUp h1{
+    font-size: 3.5rem;
+}
+
+.destinationUp h2{
+    padding: 5rem 2rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.destinationUp p{
+    font-size: 1.5rem;
+}
+
+.first-des3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4.5rem;
+    box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.3);
+    padding: 1rem 1rem;
+    text-align: center;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+.des-text3{
+    width: 85%;
+    text-align: left;
+    font-size: 1.5rem;
+    padding-bottom: 4rem;
+}
+
+.des-text3 h2{
+    padding: 4rem 1rem 1rem;
+}
+
+.des-text3 h3{
+    text-align: left;
+    padding: 2rem 1rem 1rem;
+}
+
+@media screen and (max-width:850px) {
+    .destinationUp{
+        margin: 4rem 2rem;
+    }
+
+    .first-des3{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2.5rem;
+    }
+
+    .first-des-rev{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2.5rem;
+    }
+
+    .des-text3{
+        width: 100%;
+        padding-left: 1rem;
+    }
+}
